@@ -488,33 +488,6 @@ $options[] = array(
 );
 
 // ----------------------------------------
-// 友情赞助-------------------------------
-// ----------------------------------------
-$options[] = array(
-	'name'  => 'sponsor',
-	'title' => '友情赞助',
-	'icon'  => 'fa fa-qrcode',
-
-  	'fields' => array(
-	
-  		array(
-			'type'    => 'subheading',
-			'content' => '嘿！你好，欢迎使用WebStack主题。<br><br>目前这款主题为免费公开，如使用过程中遇到什么问题，可到博客<a href="https://www.iowen.cn" target="_blank">一为忆</a>反馈<br><br>制作一款WordPress主题不易，欢迎各位老板伸出援手，友情赞助！（你们的支持就是我最大的动力！）',
-		),
-	
-		array(
-			'id'      => 'io_zanzhu',
-			'type'    => 'image_select',
-			'title'   => '友情赞助',
-		    'options' => array(
-				'wechat'   => get_stylesheet_directory_uri() . '/images/wechat_qrcode.png',
-				'alipay' => get_stylesheet_directory_uri() . '/images/alipay_qrcode.png',
-		    ),
-		),
-	),
-);
-
-// ----------------------------------------
 // 备份-------------------------------------
 // ----------------------------------------
 $options[] = array(

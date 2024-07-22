@@ -27,10 +27,5 @@ if ( ! defined( 'ABSPATH' ) ) { exit; }  ?>
         </li>
         <!-- 天气 end -->
       </ul>
-      <ul class="user-info-menu list-inline list-unstyled">
-        <li class="hidden-sm hidden-xs">
-            <a href="https://github.com/owen0o0/WebStack" target="_blank"><i class="fa fa-github"></i> GitHub</a>
-        </li>
-      </ul>
     </div>
 </nav>
